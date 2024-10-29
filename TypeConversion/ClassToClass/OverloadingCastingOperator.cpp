@@ -41,7 +41,7 @@ public:
 int main()
 {
     Cgs D1(9, 10);
-    Fps D2 = (Fps)D1;
+    Fps D2 = D1;
     D1.display();
     D2.display();
     return 0;
