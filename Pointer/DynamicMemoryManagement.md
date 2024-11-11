@@ -33,3 +33,4 @@ int main()
 2. ***Resource management :***  We can allocate memory when needed and deallocate it when it is no longer required. This leads to better resource utilization. 
 
 3. ***Dynamic arrays :*** In languages like C++, Static arrays have fixed sizes determined at compile time. Dynamic memory allocation allows us to create arrays whose size can be determined during runtime.
+
