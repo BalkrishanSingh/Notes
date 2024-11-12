@@ -33,7 +33,7 @@ public:
 
 int main()
 {
-    cout << "Balkrishan\n2302492\n";
+    cout << "Ayush Mishra\n2302492\n";
     C c;
     c.displayC();
     return 0;

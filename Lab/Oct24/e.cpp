@@ -41,7 +41,7 @@ public:
 
 int main()
 {
-    cout << "Balkrishan\n2302492\n";
+    cout << "Ayush Mishra\n2302490\n";
     C c;
     c.displayC();
     D d;
