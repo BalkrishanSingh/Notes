@@ -20,6 +20,7 @@ public:
 
 int main()
 {
+    std::cout << "Balkrishan\n2302492\n";
     Base b1;
     b1.Show();
     Derived d1;

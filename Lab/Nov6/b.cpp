@@ -27,6 +27,7 @@ public:
 
 int main()
 {
+    cout << "Balkrishan\n2302492\n";
     C c;
     c.A::display();
 
