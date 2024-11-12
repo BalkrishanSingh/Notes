@@ -1,5 +1,13 @@
+# Ignore everything
 *
+
+# Unignore .cpp and .md files
 !*.cpp
 !*.md
+
+# Unignore .gitignore itself
 !.gitignore
-!/
+
+# Unignore all directories recursively (so we can see inside)
+!*/
+
