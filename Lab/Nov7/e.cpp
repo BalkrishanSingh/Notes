@@ -11,7 +11,6 @@ public:
 int main()
 {
     cout << "Balkrishan\n2302492\n";
-    demo b;
-    demo *ptr = &b;
+    demo *ptr = new demo;
     ptr->show();
 }

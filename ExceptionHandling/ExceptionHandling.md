@@ -16,3 +16,8 @@
    An exception in C++ can be thrown using the `throw` keyword. When a program encounters a `throw` statement then it immediately terminates the current function and starts finding a matching a catch block to handle the thrown exception.
  
  Multiple `catch` statements can be used to catch different types of exception thrown by a `try` block. The `try` and `catch` keywords come in pairs. We use the `try` block to test some code and if the code throwns an exception, we may handle it in our `catch` block.
+
+ ## Rethrowing an Exception
+  Exception handling plays a role in developing robust software. It offers a way to handle errors and unexpected situations. One interesting aspect of exception handling is the ability to rethrow an Exception allowing it to pass up the call stack. 
+
+  Rethrowing an exception in C++ involves catching an exception within a try block and instead of dealing with it locally, throwing it again to be caught by an outer catch block.By doing this, we preserve the type and details of the exception ensuring that it can be handled at the appropriate level within the program.

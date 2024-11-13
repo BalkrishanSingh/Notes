@@ -20,6 +20,7 @@ public:
     }
 };
 
+
 class C : public A
 {
 public:
