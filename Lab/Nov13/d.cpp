@@ -12,12 +12,13 @@ int division(int num, int den)
     }
     catch (const exception &e)
     {
-        cout << "caught in division" << e.what() << endl;
+        cout << "caught in division :" << e.what() << endl;
         throw;
     }
 }
 int main()
 {
+    cout << "Balkrishan\n2302492\n";
     int result;
     try
     {
@@ -26,7 +27,7 @@ int main()
     }
     catch (const exception &e)
     {
-        cout << "caught in main" << e.what() << endl;
+        cout << "caught in main :" << e.what() << endl;
     }
     return 0;
 }
